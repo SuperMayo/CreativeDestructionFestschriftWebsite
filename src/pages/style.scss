@@ -1,0 +1,263 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+body::before {
+  content: "";
+  position: fixed;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Open Sans', -apple-system, Segoe UI, Roboto, 'Noto Sans', 'Ubuntu', Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+a.light {
+  color:#b3d3f5;
+}
+
+a.light:hover {
+  color:#e1efff;
+}
+
+footer.footer {
+  background-color: #001933;
+  color: white;
+}
+
+.main-title {
+  font-variant: small-caps;
+}
+
+.has-bg-image {
+  background: url(../images/turnerwebdarker.jpg) center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+#mapid {
+  height: 300px;
+}
+
+section.has-shadow {
+  box-shadow: inset 0px 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.background-dark {
+  color: hsl(210, 50%, 95%);
+  background: #073361;
+}
+
+.light {
+  color: hsl(210, 50%, 95%);
+}
+
+.light-header {
+  color: #e8f3ff;
+}
+
+.button.is-primary {
+  background-color: #09509d;
+}
+.button.is-primary:hover {
+  background-color: #1376e0;
+}
+
+.button.is-primary.is-outlined {
+  background-color: transparent;
+  border-color: #09509d;
+  color: #09509d;
+}
+.button.is-primary.is-outlined:hover {
+  background-color: #09509d;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-danger {
+  background-color: #EB4926;
+}
+
+.button.is-danger:hover {
+  background-color: #EB6446;
+}
+
+.button.has-shadow {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  padding: 2rem;
+}
+
+.social-twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+.social-twitter:hover {
+  background-color: transparent;
+  color: #55ACEE;
+  border-color: #55ACEE;
+}
+
+.social-mail {
+  background-color: #ee5555;
+  color: white;
+}
+.social-mail:hover {
+  background-color: transparent;
+  color: #ee5555;
+  border-color: #ee5555;
+}
+
+.card-glass {
+  background: rgba(255,255,255,0.4);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur( 4.5px );
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  z-index: 999999;
+}
+
+.card-content .title {
+  font-size: min(5vw, 2.5rem);
+  color:rgba(255,255,255, 0.9)
+}
+
+.card-content .subtitle {
+  font-size: min(3vw, 1rem);
+  color:hsl(210, 50%, 85%);
+}
+
+.alpha90 {
+  opacity: 0.9;
+}
+
+.alpha45 {
+  opacity: 0.45;
+}
+
+.hero.is-dark .subtitle.is-3 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hero.is-dark .subtitle.is-2 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+/* Lists */
+
+ul {
+  list-style-position: outside;
+  list-style-type: none;
+  margin-top: 1em;
+  margin-left: 3.5em;
+}
+
+li.subtitle {
+  color: hsl(210, 50%, 95%);
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+li::before {
+  font-family: 'Material Icons';
+  color: hsl(210, 70%, 90%);
+  float: left;
+  margin-left: -1.5em;
+  font-size: larger;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+li.fa-finance::before{
+  content: "\ef63";
+}
+
+li.fa-inequality::before{
+  content: "\f233";
+}
+
+li.fa-decline::before{
+  content: "\e8e3";
+}
+
+li.fa-health::before{
+  content: "\e1d5";
+}
+
+li.fa-trade::before{
+  content: "\e80b";
+}
+
+li.fa-regulation::before {
+  content: "\e040";
+}
+
+li.fa-climate::before {
+  content: "\f076";
+}

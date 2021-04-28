@@ -1,0 +1,92 @@
+seo:
+  lang: en
+  title: Economics of Creative Destruction Conference
+  meta:
+    description: A web conference in the economics of Creative Destruction starting June 9. Features more than 100 speakers in 13 conferences.
+    card: "summary_large_image"
+    image: "https://creativedestruction2021.org/twitter_card.png"
+    twitterSite: "@cdf_InnovLab"
+hero:
+  title: The Economics of Creative Destruction
+  subtitle: >- 
+        A festschrift symposium in honor of Philippe Aghion and Peter Howitt,
+        organised by Ufuk Akcigit and John Van Reenen
+  date: June 9-12, 2021
+  info: Zoom conference
+what:
+  title: What?
+  cards:
+    - n: "4"
+      t: Days
+    - n: "13"
+      t: Conferences
+    - n: "100+"
+      t: Speakers
+    - n: "11"
+      t: Nobel laureates
+  description: >-
+            In 1992, Philippe Aghion and Peter Howitt published
+            "A Model of Growth through Creative Destruction".
+            To honor the 30th anniversary of this publication, Ufuk Akcigit and John Van Reenen are organizing a four-day zoom seminar,
+            followed-up by a book edited at Harvard University Press on "The Economics of Creative Destruction".
+            More than a hundred renowned economists will meet from June 9 to June 12 to present and exchange ideas about how the creative destruction framework offers a fresh lens to think about questions such as:
+  list:
+    - icon: fa-health
+      text: What are the effects of creative destruction on employment and health?
+    - icon: fa-decline
+      text: Why did we observed a growth decline despite the IT and AI revolutions? 
+    - icon: fa-trade
+      text: How does creative destruction interacts with competition and trade?
+    - icon: fa-inequality
+      text: How can we explain and tackle inequalities to make growth more inclusive?
+    - icon: fa-climate
+      text: How can we reconcile growth with the environment, especially the challenge of climate change?
+    - icon: fa-finance
+      text: How should we finance and organize the innovation ecosystem to favor creative destruction?
+    - icon: fa-regulation
+      text: How to regulate modern capitalism?
+cta:
+  title: How to attend?
+  description: The conference is free and will take place on Zoom. Register below to stay updated and get notified with the zoom link.
+  register:
+      text: Register!
+      link: https://forms.gle/9VZmgXjs5EKpNa3K6
+  calendar:
+      link: "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210609%2F20210613&details=A%20zoom%20conference%20on%20%C2%AB%20The%20Economics%20of%20Creative%20Destruction%20%C2%BB%20in%20honor%20of%20Philippe%20Aghion%20and%20Peter%20Howitt%2C%20organized%20by%20Ufuk%20Akcigit%20and%20John%20Van%20Reenen%2C%20will%20take%20place%20from%209%20June%202021%20until%2012%20June%202021%2C%20from%205pm%20Paris%20time.%0AProgram%20and%20info%20on%20www.creativedestruction2021.org&location=Online&text=The%20Economics%20of%20Creative%20Destruction%20-%20Seminar"
+      text: Add to your calendar
+program:
+  title: Check the Program!
+  pdf: program.pdf
+  imagePath: program.png
+  alt: Program
+poster:
+  pdf: poster.pdf
+  imagePath: poster.jpg
+  alt: poster
+  twitterShare: "https://twitter.com/intent/tweet?url=www.creativedestruction2021.org"
+  mailto: "mailto:?subject=The%20Economics%20of%20Creative%20Destruction&body=I%20think%20this%20may%20interest%20you%3A%0A%22The%20Economics%20of%20Creative%20Destruction%22%20organized%20by%20Ufuk%20Akcigit%20and%20John%20Van%20Reenen.%204%20days%20of%20conferences%20from%20June%209%20to%2012.%0AProgram%20and%20registration%3A%20https://www.creativedestruction2021.org"
+acknowledgements:
+  tribute: >-
+    This Festschrift conference, organized by Ufuk Akcigit and John Van Reenen,
+    was initiated by Emmanuel Farhi, who passed away in July 2020.
+    The opening session on June 9 will honor his memory.
+    A beautiful mind and a genius economist,
+    widely considered as the best macroeconomist of his generation,
+    Emmanuel was also an outstanding human being who never failed to find time to listen to us and to provide advice and support.
+    His great intelligence, his open-mindedness,
+    his unbounded curiosity and his uncommon generosity, are sorely missed.
+  subtexts:
+    - We thank the whole team at the Farhi Innovation Lab at College de France for their dedicated involvement in this project.
+    - This conference is organized with the financial support of Banque de France and LVMH. John Van Reenen also thanks the ESRC through the POID initiative.
+  supporters:
+    - name: Banque de France
+      logo: bdflight.png
+    - name: college de France
+      logo: college.png
+    - name: Insead
+      logo: insead.png
+    - name: LVMH
+      logo: lvmh.png
+    - name: Harvard University Press
+      logo: hup.png
+    
