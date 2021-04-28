@@ -1,54 +1,29 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://creativedestruction2021.org/?ref=github">
+    <img alt="Turner painting" src="src/images/icon.png" width="200" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  the Economics of Creative Destruction Conference Website
 </h1>
 
-## 🚀 Quick start
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9c01a75e-7917-4151-a243-72b6917c2249/deploy-status)](https://app.netlify.com/sites/creativedestruction2021/deploys) ![License](https://img.shields.io/github/license/supermayo/CreativeDestructionFestschriftWebsite) ![code size](https://img.shields.io/github/languages/code-size/supermayo/CreativeDestructionFestschriftWebsite) ![repo size](https://img.shields.io/github/repo-size/supermayo/CreativeDestructionFestschriftWebsite)
+ 
+## ℹ Description
 
-1.  **Create a Gatsby site.**
+This repository holds the website source code for the [conference in the economics of creative destruction](https://creativedestruction2021.org/?ref=github).
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## 🛠 Usage
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+If you want to run the website locally, make sure to have [node](https://nodejs.dev/learn/how-to-install-nodejs) installed and [gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli). Then, in the root directory run
+```{sh}
+gatsby develop
+```
+See [gatsby local development](https://www.gatsbyjs.com/docs/how-to/local-development/) to know more.
 
-2.  **Start developing.**
+## ⚙ Tech Stack
+As we are holding the code for a conference in innovations, we have the duty to build the website using the latest technologies available.
+  - __Framework__: [Gatsbyjs](https://www.gatsbyjs.com/)
+  - __CI & Hosting__: [Netlify](https://www.netlify.com/)
+  - __Analytics__: [Goatcounter](https://www.goatcounter.com/)
 
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
