@@ -4,7 +4,7 @@ seo:
   meta:
     description: A web conference in the economics of Creative Destruction starting June 9. Features more than 100 speakers in 13 conferences.
     card: "summary_large_image"
-    image: "https://raw.githubusercontent.com/SuperMayo/CreativeDestructionFestschriftWebsite/master/static/twitter_card.png"
+    image: "https://www.creativedestruction2021.org/twitter_card.png/"
     twitterSite: "@cdf_InnovLab"
 hero:
   title: The Economics of Creative Destruction
