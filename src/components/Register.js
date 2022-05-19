@@ -6,8 +6,8 @@ const Register = ({ title, description, register, calendar, zoomcode }) => {
 
   const onRegister = () =>
     count({
-      path: "outgoing:google-form",
-      title: "register-down",
+      path: "outgoing:replay",
+      title: "replay-down",
       event: true,
     });
 
@@ -34,15 +34,8 @@ const Register = ({ title, description, register, calendar, zoomcode }) => {
             {register.text}
           </a>
         </div>
-        <div className="has-text-centered pt-5">
+        {/* <div className="has-text-centered pt-5">
           <span className="subtitle is-4 is-light">Zoom ID: 98595732585</span>
-        </div>
-        {/* <div className="has-text-centered mt-4">
-          <a href={calendar.link}
-            className="button is-info is-light">
-            <span className="material-icons">
-              event</span> {calendar.text}
-          </a>
         </div> */}
       </div>
     </section>

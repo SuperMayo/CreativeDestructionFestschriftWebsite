@@ -34,12 +34,12 @@ const Poster = ({ pdf, imagePath, alt, twitterShare, mailto }) => {
                   <FontAwesomeIcon icon={faTwitter} />
                 </span>
               </a>
-              <a className="button is-large social-mail m-2"
+              {/* <a className="button is-large social-mail m-2"
                 href={mailto}>
                 <span className="icon is-small">
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

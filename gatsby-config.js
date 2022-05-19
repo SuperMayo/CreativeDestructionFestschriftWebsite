@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
         title: `The Economics of Creative Destruction`,
-        description: `To honor the 30th anniversary of Aghion and Howitt 'A Model of Growth through Creative Destruction', Ufuk Akcigit and John Van Reenen are organizing a four-day zoom seminar, followed-up by a book edited at Harvard University Press.
-        More than a hundred renowned economists will meet from June 9 to June 12 to present and exchange ideas about how the creative destruction framework offers a fresh lens on their discipline.`,
+        description: `To honor the 30th anniversary of Aghion and Howitt 'A Model of Growth through Creative Destruction', Ufuk Akcigit and John Van Reenen organized a four-day zoom seminar, followed-up by a book edited at Harvard University Press.
+        More than a hundred renowned economists have been meeting from June 9 to June 12 to present and exchange ideas about how the creative destruction framework offers a fresh lens on their discipline.`,
         author: `Antoine Mayerowitz a.mayerowitz@gmail.com`
     },
     plugins: [

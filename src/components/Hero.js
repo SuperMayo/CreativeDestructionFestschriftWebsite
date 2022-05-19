@@ -4,10 +4,10 @@ import { useGoatCounter } from "gatsby-plugin-goatcounter";
 const Hero = ({ title, subtitle, date, info }) => {
   const count = useGoatCounter();
 
-  const onRegister = () =>
+  const onReplay = () =>
     count({
-      path: "outgoing:google-form",
-      title: "register-top",
+      path: "outgoing:replay",
+      title: "replay",
       event: true,
     });
 
@@ -23,21 +23,21 @@ const Hero = ({ title, subtitle, date, info }) => {
             <div className="columns is-centered">
               <div className="column is-tight">
                 <a
-                  href="#program"
-                  className="button has-shadow is-primary is-rounded"
+                  href="https://replay.creativedestruction2021.org"
+                  className="button has-shadow is-medium is-danger is-rounded has-text-weight-bold"
+                  onClick={() => onReplay()}
                 >
-                  Get the program!
+                  Watch the replay!
                 </a>
               </div>
             </div>
             <div className="columns is-centered">
               <div className="column is-tight">
                 <a
-                  href="https://zoom.us/j/98595732585"
-                  className="button has-shadow is-medium is-danger is-rounded has-text-weight-bold"
-                  onClick={() => onRegister()}
+                  href="#program"
+                  className="button has-shadow is-primary is-rounded"
                 >
-                  Join!
+                  Get the program!
                 </a>
               </div>
             </div>
